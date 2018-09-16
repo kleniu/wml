@@ -1,0 +1,7 @@
+set -e
+pip install watson-machine-learning-client
+pip install websocket-client==0.47
+pip install botocore	# required to access S3 bucket
+pip install matplotlib  # Python plotting package
+pip install seaborn     # seaborn: statistical data visualization
+pip install pyspark==2.1.3     # Apache Spark Python API
